@@ -3,6 +3,7 @@
 @import url(Styles/var.css);
 @import url(Styles/mycart.css);
 @import url(Styles/mywishlist.css);
+@import url(Styles/product.css);
 
 .right-nav{
     margin-right: 50px;
@@ -79,4 +80,8 @@
 .btn-class{
     margin-top: 20px;
     text-align: center;
+}
+
+.fas:hover{
+    cursor: pointer;
 }
