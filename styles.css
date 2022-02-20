@@ -81,3 +81,7 @@
     margin-top: 20px;
     text-align: center;
 }
+
+.fas:hover{
+    cursor: pointer;
+}
