@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="https://arpits-library.netlify.app/main.css" />
+  <link rel="stylesheet" href="Styles/login.css" />
+  <link rel="stylesheet" href="Styles/mycart.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav class="flex nav-item background-color">
+    <div class="left-nav flex">
+      <a href="index.html" class="nav-heading">ARPIT'S STORE</a>
+      <input class="search-bar" placeholder="Search" />
+    </div>
+    <div class="right-nav">
+      <button class="btn btn-round" onclick="window.location.href='login.html';">
+        Login
+      </button>
+      <button class="btn btn-round" onclick="window.location.href='signup.html';">
+        Signup
+      </button>
+
+      <button class="badge-button badge-lg"onclick="window.location.href='mycart.html';">
+        <i class="fas fa-shopping-cart fa-2x"></i>
+        <span class="icon-button-badge flex center icon-xl">16</span>
+      </button>
+      <button class="badge-button badge-lg"onclick="window.location.href='mywishlist.html';">
+        <i class="fas fa-heart fa-2x"></i>
+        <span class="icon-button-badge flex center icon-xl">16</span>
+      </button>
+    </div>
+  </nav>
+  <h1 class="mycart-heading">My Cart</h1>
+  <div class="container">
+    <div class="image">
+      <img class="mycart-image" src="Assets/jacket.jpeg" alt="" />
+    </div>
+    <div class="description">
+      <p class="short-description">Men's premium jacket</p>
+      <h4 class="price">$2000</h4>
+      <small class="off-price">50% off</small>
+      <p>
+        Quantity <a class="plus-minus" href="">+</a>
+        <input class="number-of-items" type="text" placeholder="" value="1" /> <a class="plus-minus" href="">-</a>
+      </p>
+      <button class="btn-remove">Remove from Cart</button>
+      <button class="btn-wishlist">Move to Wishlist</button>
+    </div>
+  </div>
+
+  <div class="price-container">
+    <h3 class="price-details-heading">PRICE DETAILS</h3>
+    <hr />
+    <div class="item">
+      <p class="list">Price of 2 Items</p>
+      <span class="price-items">400$</span>
+    </div>
+    <div class="item">
+      <p class="list">Discount</p>
+      <span class="price-items">-10$</span>
+    </div>
+    <div class="item">
+      <p class="list">Delievery charges</p>
+      <span class="price-items">10$</span>
+    </div>
+    <hr />
+    <div class="item">
+      <p class="list">Total Amount</p>
+      <span class="price-items">400$</span>
+    </div>
+    <hr />
+    <div class="item saved-money">
+      <p class="list">You will save 10$ in this order</p>
+    </div>
+    <button class="btn-place-order">Place Order</button>
+  </div>
+
+</body>
+
+</html>
