@@ -1,12 +1,14 @@
 @import url(Styles/login.css);
 @import url(Styles/mycart.css);
 @import url(Styles/var.css);
+@import url(Styles/mycart.css);
+@import url(Styles/mywishlist.css);
 
 .right-nav{
     margin-right: 50px;
 }
 .background-color{
-    background-color:var(--background-color);
+    background-color:#2874f0;
 }
 
 .nav-heading{

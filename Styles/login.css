@@ -1,32 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 
-:root{
-    --background-color:#2874f0;
-    --white-color:white;
-    --black-color:black;
-    --light-gray:lightgray;
-    --bodybackground-color:rgba(128, 128, 128, 0.322);
+:root {
+  --background-color: #2874f0;
+  --white-color: white;
+  --black-color: black;
+  --light-gray: lightgray;
+  --bodybackground-color: rgba(128, 128, 128, 0.322);
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
 body {
-  background-color:var(--bodybackground-color);
-}
-.background-color{
-    background-color:var(--background-color);
+  background-color: var(--bodybackground-color);
 }
 
-.nav-heading{
-    color:var(--white-color);
+.background-color {
+  background-color: var(--background-color);
 }
 
-.search-bar{
-    border: none;
+.nav-heading {
+  color: var(--white-color);
+}
+
+.search-bar {
+  border: none;
 }
 
 .container {
@@ -49,11 +52,13 @@ body {
 form .data label {
   font-size: 1;
 }
+
 .container form .data {
   height: 45px;
   width: 100%;
   margin: 40px 0;
 }
+
 form .data input {
   height: 100%;
   width: 100%;
@@ -63,7 +68,7 @@ form .btn button {
   margin-top: 15px;
   padding: 10px;
   width: 100%;
-  background-color:var(--background-color);
+  background-color: var(--background-color);
   color: var(--white-color);
   border: none;
 }
@@ -71,33 +76,35 @@ form .btn button {
 button:hover {
   cursor: pointer;
 }
-.span-style{
-    margin-right: 70px;
-}
-.forget{
-    color: var(--background-color);
-    text-decoration: none;
+
+.span-style {
+  margin-right: 70px;
 }
 
-.create-new-account{
-    text-align: center;
-    text-align: center;
-    padding: 20px;
+.forget {
+  color: var(--background-color);
+  text-decoration: none;
 }
 
-.create-new-account a{
-    color: var(--black-color);
+.create-new-account {
+  text-align: center;
+  text-align: center;
+  padding: 20px;
 }
 
-input{
-    border: 1px solid var(--light-gray);
-    margin-top: 5px;
+.create-new-account a {
+  color: var(--black-color);
 }
 
-.input-login{
-    float: left;
+input {
+  border: 1px solid var(--light-gray);
+  margin-top: 5px;
 }
 
-.signup-input{
-    float: left;
+.input-login {
+  float: left;
+}
+
+.signup-input {
+  float: left;
 }
